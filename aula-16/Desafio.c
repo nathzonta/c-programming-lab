@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    char palavra[100];
+    char palavra[30];
     int contagem = 0;
 
-    printf("Digite uma palavra [limite de 100 caracteres]: ");
-    scanf("%s", &palavra);
+    printf("Digite uma palavra [limite de 30 caracteres]: ");
+    scanf("%29s", &palavra);
 
     for (int i = 0; palavra[i] != '\0'; i++) {
         contagem++;
